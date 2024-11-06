@@ -1,0 +1,77 @@
+body{
+    background-color: #1f1f2d;
+}
+.navbar{
+    text-align: center;
+    margin-bottom: 20vmin;
+}
+.nav-txt{
+    color:#59747B;
+    text-decoration: underline;
+}
+.game-container{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+}
+.box{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: none;
+    background-size: cover;
+    font-size: 0px;
+
+}
+#stone{
+    background-image: url(stone.png);
+}
+#paper{
+    background-image: url(paper.png);
+}
+#secissor{
+    background-image: url(sciss.png);
+}
+.sign-txt{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    color: white;
+}
+.txt-sign{
+    margin-left: 20px;
+}
+.win-msg{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 160px;
+    margin-left:42.6rem;
+    border-radius: 6px;
+    text-align: center;
+}
+.box:hover{
+    border: 5px #1f1f2d solid;
+}
+.scorecard{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap:8rem;
+}
+.score{
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.user-comp{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap:5rem;
+}
+.user-card{
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+}
